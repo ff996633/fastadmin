@@ -1,0 +1,6 @@
+---------------------------------------------------------------
+[ 2020-06-20T11:05:23+08:00 ] 127.0.0.1 GET 127.0.0.1/api/my_test/getList?test_age=13
+[ error ] [0]语法解析错误: syntax error, unexpected ')'
+---------------------------------------------------------------
+[ 2020-06-20T11:07:12+08:00 ] 127.0.0.1 GET 127.0.0.1/api/my_test/getList?test_age=13
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '' ORDER BY `age` DESC' at line 1

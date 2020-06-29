@@ -1,0 +1,36 @@
+---------------------------------------------------------------
+[ 2020-06-19T20:00:40+08:00 ] 127.0.0.1 GET 127.0.0.1/api/my_test/getList?test_id=1
+[ error ] [0]致命错误: Call to undefined method app\api\controller\MyTest::where()
+---------------------------------------------------------------
+[ 2020-06-19T20:01:42+08:00 ] 127.0.0.1 GET 127.0.0.1/api/my_test/getlist?test_id=1
+[ error ] [0]致命错误: Call to undefined method app\api\controller\MyTest::where()
+---------------------------------------------------------------
+[ 2020-06-19T20:39:46+08:00 ] 127.0.0.1 GET 127.0.0.1/api/my_test/getlist?test_id=1
+[ error ] [0]致命错误: Class 'admin\model\MyTest' not found
+---------------------------------------------------------------
+[ 2020-06-19T20:40:59+08:00 ] 127.0.0.1 GET 127.0.0.1/api/my_test/getList?test_id=1
+[ error ] [0]致命错误: Class 'admin\model\MyTest' not found
+---------------------------------------------------------------
+[ 2020-06-19T20:43:35+08:00 ] 127.0.0.1 GET 127.0.0.1/api/my_test/getList?test_id=99
+[ error ] [0]致命错误: Class 'admin\model\MyTest' not found
+---------------------------------------------------------------
+[ 2020-06-19T20:45:00+08:00 ] 127.0.0.1 GET 127.0.0.1/api/my_test/getList?test_id=1
+[ error ] [8]未定义变量: where
+---------------------------------------------------------------
+[ 2020-06-19T20:45:36+08:00 ] 127.0.0.1 GET 127.0.0.1/api/my_test/getList?test_id=1
+[ error ] [0]类型错误: Too few arguments to function think\db\Query::where(), 0 passed and at least 1 expected
+---------------------------------------------------------------
+[ 2020-06-19T20:50:21+08:00 ] 127.0.0.1 GET 127.0.0.1/api/my_test/getList?test_id=1
+[ error ] [0]类型错误: Too few arguments to function think\db\Query::where(), 0 passed and at least 1 expected
+---------------------------------------------------------------
+[ 2020-06-19T20:50:54+08:00 ] 127.0.0.1 GET 127.0.0.1/api/my_test/getList?test_id=1
+[ error ] [0]语法解析错误: syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+---------------------------------------------------------------
+[ 2020-06-19T21:01:53+08:00 ] 127.0.0.1 GET 127.0.0.1/api/my_test/getList?test_id=1
+[ error ] [0]语法解析错误: syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+---------------------------------------------------------------
+[ 2020-06-19T21:02:11+08:00 ] 127.0.0.1 GET 127.0.0.1/api/my_test/getList?test_id=1
+[ error ] [0]语法解析错误: syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+---------------------------------------------------------------
+[ 2020-06-19T21:02:57+08:00 ] 127.0.0.1 GET 127.0.0.1/api/my_test/getList?test_id=1
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ''' at line 1
